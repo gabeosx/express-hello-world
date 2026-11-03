@@ -1,6 +1,6 @@
 {
   "features": {
-    "https://beta.orrisdev.com/feature/0.1.6/devcontainer-feature-orrisdev-trusted.tgz": {}
+    "https://beta.orrisdev.com/feature/0.1.7/devcontainer-feature-orrisdev-trusted.tgz": {}
   },
   "forwardPorts": [
     54846
