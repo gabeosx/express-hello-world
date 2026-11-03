@@ -1,0 +1,17 @@
+{
+  "features": {
+    "https://beta.orrisdev.com/feature/0.1.5/devcontainer-feature-orrisdev-trusted.tgz": {}
+  },
+  "forwardPorts": [
+    64496
+  ],
+  "containerEnv": {
+    "ORRISDEV_HELPER_PORT": "64496"
+  },
+  "portsAttributes": {
+    "64496": {
+      "protocol": "https",
+      "label": "OrrisDev helper"
+    }
+  }
+}
