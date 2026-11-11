@@ -4,7 +4,8 @@
     "ghcr.io/orrisdev/features/orrisdev-trusted:0.1.10": {}
   },
   "forwardPorts": [
-    51077
+    51077,
+    3001
   ],
   "containerEnv": {
     "ORRISDEV_HELPER_PORT": "51077"
@@ -13,6 +14,10 @@
     "51077": {
       "protocol": "https",
       "label": "OrrisDev helper"
+    },
+    "3001": {
+      "protocol": "http",
+      "label": "Express app"
     }
   }
 }
