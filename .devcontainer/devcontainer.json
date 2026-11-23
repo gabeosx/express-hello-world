@@ -1,0 +1,17 @@
+{
+  "features": {
+    "ghcr.io/orrisdev/features/orrisdev-trusted:0.1.10": {}
+  },
+  "forwardPorts": [
+    59928
+  ],
+  "containerEnv": {
+    "ORRISDEV_HELPER_PORT": "59928"
+  },
+  "portsAttributes": {
+    "59928": {
+      "protocol": "https",
+      "label": "OrrisDev helper"
+    }
+  }
+}
