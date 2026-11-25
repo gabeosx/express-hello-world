@@ -1,0 +1,19 @@
+{
+  "features": {
+    "ghcr.io/orrisdev/features/orrisdev-agent-codex:0.3.1": {},
+    "ghcr.io/orrisdev/features/orrisdev-helper:1": {}
+  },
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "forwardPorts": [
+    65512
+  ],
+  "containerEnv": {
+    "ORRISDEV_HELPER_PORT": "65512"
+  },
+  "portsAttributes": {
+    "65512": {
+      "protocol": "http",
+      "label": "OrrisDev helper"
+    }
+  }
+}
